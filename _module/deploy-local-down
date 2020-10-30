@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 prefix="vcwc_registry__$1"
+prefix="vcwc_registry__$1"
 
 executionplane --silent docker container prune --force
 
